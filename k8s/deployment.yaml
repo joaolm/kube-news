@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: joaolm/kube-news:v1
+          image: joaolm/kube-news:{{TAG}}
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
